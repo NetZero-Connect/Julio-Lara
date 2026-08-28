@@ -1,10 +1,11 @@
+```html
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Maria Fernanda | Assistente BD</title>
+    <title>Maria Fernanda</title>
 
     <style>
         * {
@@ -14,8 +15,8 @@
         }
 
         body {
-            font-family: Arial, Helvetica, sans-serif;
-            background: #f4f7f5;
+            font-family: Arial, sans-serif;
+            background: #f5f7f5;
             color: #1f2933;
             min-height: 100vh;
             display: flex;
@@ -24,8 +25,8 @@
 
         .container {
             width: 100%;
-            max-width: 480px;
-            padding: 45px 24px 35px;
+            max-width: 420px;
+            padding: 50px 25px;
             text-align: center;
         }
 
@@ -33,63 +34,61 @@
             margin-bottom: 30px;
         }
 
-        .photo {
-            width: 100px;
-            height: 100px;
+        .avatar {
+            width: 90px;
+            height: 90px;
+            margin: 0 auto 18px;
             border-radius: 50%;
             background: #198754;
-            margin: 0 auto 18px;
+            color: white;
             display: flex;
             align-items: center;
             justify-content: center;
-            color: white;
-            font-size: 34px;
+            font-size: 28px;
             font-weight: bold;
         }
 
         h1 {
-            font-size: 26px;
-            margin-bottom: 6px;
+            font-size: 25px;
+            margin-bottom: 7px;
         }
 
-        .role {
+        .cargo {
             color: #198754;
             font-size: 15px;
-            font-weight: 600;
         }
 
-        .buttons {
+        .links {
             display: flex;
             flex-direction: column;
             gap: 14px;
         }
 
-        .button {
+        .link {
             display: block;
-            text-decoration: none;
-            padding: 16px 20px;
-            border-radius: 12px;
+            padding: 16px;
             background: white;
+            border-radius: 10px;
+            text-decoration: none;
             color: #1f2933;
             font-size: 16px;
             font-weight: 600;
-            border: 1px solid #dce5df;
+            border: 1px solid #dfe7e1;
             transition: 0.2s;
         }
 
-        .button:hover {
+        .link:hover {
             transform: translateY(-2px);
             border-color: #198754;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
         }
 
-        .primary {
+        .whatsapp {
             background: #198754;
             color: white;
-            border: none;
+            border-color: #198754;
         }
 
-        .footer {
+        footer {
             margin-top: 30px;
             font-size: 12px;
             color: #8a9690;
@@ -99,62 +98,46 @@
 
 <body>
 
-<div class="container">
+    <div class="container">
 
-    <div class="profile">
+        <div class="profile">
 
-        <div class="photo">
-            MF
+            <div class="avatar">
+                MF
+            </div>
+
+            <h1>Maria Fernanda</h1>
+
+            <p class="cargo">
+                Assistente BD
+            </p>
+
         </div>
 
-        <h1>Maria Fernanda</h1>
+        <div class="links">
 
-        <div class="role">
-            Assistente BD
+            <a
+                class="link whatsapp"
+                href="https://wa.me/5531999353447"
+                target="_blank">
+                WhatsApp
+            </a>
+
+            <a
+                class="link"
+                href="mailto:maria.cardodo@empresa.com">
+                E-mail
+            </a>
+
         </div>
 
-    </div>
-
-
-    <div class="buttons">
-
-        <!-- WhatsApp -->
-        <a
-            class="button primary"
-            href="https://wa.me/5531999353447"
-            target="_blank">
-            WhatsApp
-        </a>
-
-
-        <!-- E-mail -->
-        <a
-            class="button"
-            href="mailto:maria.cardodo@empresa.com">
-            E-mail
-        </a>
-
-
-        <!-- Salvar contato -->
-        <a
-            class="button"
-            href="contato.vcf"
-            download>
-            Salvar contato
-        </a>
-
-
-        <!-- LinkedIn -->
-        <!-- Coloque seu LinkedIn aqui depois -->
+        <footer>
+            Maria Fernanda
+        </footer>
 
     </div>
-
-
-    <div class="footer">
-        Maria Fernanda
-    </div>
-
-</div>
 
 </body>
 </html>
+```
+
