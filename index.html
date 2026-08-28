@@ -160,38 +160,30 @@
     */
 
     .avatar {
-
-        position: relative;
-
-        width: 100%;
-
-        height: 100%;
-
-        border-radius: 50%;
-
-        padding: 24px;
-
-        background: linear-gradient(
-            135deg,
-            var(--white),
-            var(--green-dark)
-        );
-
-        box-shadow:
-            0 10px 30px rgba(0,0,0,0.15);
-    }
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    padding: 3px;
+    background: linear-gradient(
+        135deg,
+        var(--white),
+        var(--green-dark)
+    );
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
 
 
     /*
     Área interna da logo
     */
 
-    .avatar img {
+.avatar img {
     display: block;
     width: 100%;
     height: 100%;
-    padding: 8px;
-    object-fit: contain;
+    object-fit: cover;
+    object-position: center;
     border-radius: 50%;
     background: var(--white);
 }
